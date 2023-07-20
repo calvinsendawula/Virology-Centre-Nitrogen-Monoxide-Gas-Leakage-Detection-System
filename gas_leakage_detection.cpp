@@ -70,7 +70,7 @@ void loop()
   lcd.setCursor(9,1);
   lcd.print(gasConcentration);
   lcd.setCursor(11,1);
-  lcd.print("e4ppm");
+  lcd.print(" ppm");
   delay(10);
   
   if(buttonState == HIGH){
